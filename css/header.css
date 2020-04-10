@@ -1,0 +1,47 @@
+.header {
+	height: 196px;
+	background-color: #000;
+	overflow: hidden;
+}
+.inner {
+	width: 980px;
+	margin: 0 auto;
+}
+.inner .login {
+	width: 330px;
+	height: 72px;
+	padding: 34px 0 0 30px;
+	float: left;
+}
+.inner .login a{
+	width: 266px;
+	height: 47px;
+	background-image: url(../images/logo.png);
+	text-indent: 9999em;
+	display: block;
+}
+.inner .nav {
+	padding: 12px 0px 26px 0px;
+}
+.inner .nav ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+.inner .nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 0px 25px 0px 26px;
+	color: #fff;
+	height: 55px;
+	line-height: 55px;
+	background: url(../images/menu-spacer.gif) no-repeat right top;
+	font-size: 18px;
+	font-weight: bold;
+}
+.header .nav ul li:last-child a {
+	background-image: none;
+}
+.inner .nav ul li a:hover {
+	color: #60B001;
+}

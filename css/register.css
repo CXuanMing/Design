@@ -1,0 +1,101 @@
+.inner {
+	width: 980px;
+	margin: 0 auto;
+}
+.content {
+	background: url(../images/content-bg.jpg) center;
+}
+.content .content_list {
+	display: flex;
+}
+.content .content_list .col-1 {
+	margin-left: 23px;
+	margin-right: 100px;
+}
+.content .content_list .col-1 h3 {
+	padding: 30px 0 15px 0px;
+	font-size: 20px;
+}
+.content .content_list .col-1 form .portrait-1 {
+	width: 100px;
+	height: 100px;
+	padding-left: 35px;
+}
+.content .content_list .col-1 form .portrait-1 #pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.content .content_list .col-1 form .portrait-1 #upload {
+	opacity: 0;
+}
+.content .content_list .col-1 .news {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.content .content_list .col-1 .news dl dt {
+	font-weight: bold;
+}
+.content .content_list .col-1 .news dl dd {
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #808080;
+}
+.content .content_list .col-1 .news dl dd a {
+	color: #000;
+}
+.content .content_list .col-2 {
+	width: 400px;
+	height: 300px;
+	margin-top: 20px;
+	border: 1px solid #efefef;
+	display: flex;
+	flex-direction: column;
+}
+.content .content_list .col-2 .change {
+	display: flex;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	border-bottom: 1px solid #efefef;
+	box-sizing: border-box;
+}
+.content .content_list .col-2 .change div:first-child{
+	border-right: 1px solid #CCCCCC;
+}
+.content .content_list .col-2 .change div {
+	flex: 1;
+}
+.content .content_list .col-2 .change .active {
+	color: #fff;
+	background-color: #CCCCCC;
+}
+.content .content_list .col-2 form {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.content .content_list .col-2 .hide {
+	display: none;
+}
+.content .content_list .col-2 form .item {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content .content_list .col-2 form .item label {
+	flex: 1;
+}
+.content .content_list .col-2 form .item input {
+	flex: 2;
+}
+.content .content_list .col-2 form .item button {
+	width: 100px;
+	height: 40px;
+}

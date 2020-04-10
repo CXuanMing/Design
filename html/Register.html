@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/register.css">	
+</head>
+<body>
+	<div class="herder">
+		<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="../pages/header.html" width="100%"  height="116px">
+	  </iframe>
+	</div>
+	<div class="content">
+		<div class="inner">
+			<div class="content_list">
+				<div class="col-1">
+					<h3>头像 (点击头像可进行更换)</h3>
+					<form action="">
+						<div class="portrait-1">
+							<img id="pic" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586363203768&di=c9a9c45ec454adb6624800ae3ab5292e&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F1e2e62e6f57458ca32394a10211a9616498d25bd5459-K2uzdk_fw658" alt="" style="cursor:pointer">
+							<input type="file" id="upload"  accept="image/*">
+						</div>
+					</form>
+					<div class="news">
+						<dl>
+							<dt>8901 Marmora Road,<br/>Glasgow, D04 89GR.</dt>
+							<dd>Freephone:+1 800 559 6580</dd>
+							<dd>Telephone:+1 800 603 6035</dd>
+							<dd>FAX:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1 800 889 9898</dd>
+							<dd>E-mail:<a href="#">mail@demolink.org</a></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="col-2" id="col-2">
+					<div class="change">
+						<div id="left_btn" class="active">登录</div>
+						<div id="right_btn">注册</div>
+					</div>
+					<form action="/login" id="login_form">
+							<div class="item">
+								<label for="">用户名</label>
+								<input type="text" id="login_username" name="username">
+							</div>
+							<div class="item">
+								<label for="">密码</label>
+								<input type="text" id="login_password" name="password">
+							</div>
+							<div class="item">
+								<button id="login_btn">登录</button>
+							</div>
+					</form>
+					<form id="regist_form" class="hide" >
+						<div class="item">
+							<span id="regist_tips"></span>
+						</div>
+						<div class="item">
+							<label for="">用户名</label>
+							<input type="text" id="regist_username" name="username">
+						</div>
+						<div class="item">
+							<label for="">密码</label>
+							<input type="password" id="regist_password" name="password">
+						</div>
+						<div class="item">
+							<label for="">重复密码</label>
+							<input type="password" id="regist_repeat_password">
+						</div>
+						<div class="item">
+							<button type="button" id="regist_btn">注册</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="../pages/footer.html" width="100%"  height="370px">
+	  </iframe>
+	</div>
+	<script type="text/javascript" src="../js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="../js/register.js"></script>
+	<script type="text/javascript" src="../js/strategy.js"></script>
+</body>
+</html>

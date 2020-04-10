@@ -1,0 +1,37 @@
+.inner {
+	width: 980px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #808080;
+}
+.content {
+	height: 540px;
+	background: url(../images/content-bg.jpg) center;
+}
+.content .Centered {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.content .Centered h2 {
+	font-size: 25px;
+	padding: 37px 0 10px 0;
+}
+.content .Centered ul li {
+	margin-bottom: 20px;
+}
+.content .Centered ul li:hover {
+	background: #C9C9C9;
+}
+.content .Centered ul li a h6 {
+	color: #000;
+	font-weight: bold;
+}
+.content .Centered ul li a p {
+	font-size: 14px;
+}
+.content .Centered ul li:last-child a{
+	color: #000;
+	text-decoration: underline;
+}

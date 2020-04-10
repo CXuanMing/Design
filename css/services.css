@@ -1,0 +1,75 @@
+.inner {
+	width: 980px;
+	margin: 0 auto;
+}
+.content {
+	background: url(../images/content-bg.jpg) center;
+	padding: 25px 0 25px 50px;
+}
+.content .list-1 ul {
+	display: flex;
+}
+.content .list-1 ul li {
+	margin-right: 40px;
+}
+.content .list-1 ul li h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.content .list-1 ul li .txt {
+	font-size: 14px;
+	color: #808080;
+}
+.content .list-2 {
+	margin-top: 40px;
+	font-size: 25px;
+}
+.content .list-3 {
+	display: flex;
+	padding-top: 10px;
+}
+.content .list-3 .list-left {
+	margin-right: 30px;
+}
+.content .list-3 .list-left ul li {
+	margin-bottom: 20px;
+}
+.content .list-3 .list-left ul li .imgs {
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+.content .list-3 .list-left ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content .list-3 .list-left ul li a:hover {
+	text-decoration: underline;
+}
+.content .list-3 .list-left ul li p {
+	font-size: 13px;
+	color: #808080;
+}
+.content .list-3 .list-right ul li {
+	margin-bottom: 20px;
+}
+.content .list-3 .list-right ul li .imgs {
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+.content .list-3 .list-right ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content .list-3 .list-right ul li a:hover {
+	text-decoration: underline;
+}
+.content .list-3 .list-right ul li p {
+	font-size: 13px;
+	color: #808080;
+}
